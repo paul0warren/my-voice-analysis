@@ -34,11 +34,11 @@ Please note that My-Voice Analysis is currently in initial state though in activ
 
 my-voice-analysis can be installed like any other Python library, using (a recent version of) the Python package manager pip, on Linux, macOS, and Windows:
 
-   pip install git+https://github.com/paul0warren/my-voice-analysis.git
+```pip install git+https://github.com/paul0warren/my-voice-analysis.git```
 
 or, to update your installed version to the latest release:
 
-   pip install -u git+https://github.com/paul0warren/my-voice-analysis.git
+```pip install -u git+https://github.com/paul0warren/my-voice-analysis.git```
 
 Audio files must be in *.wav format, recorded at 44 kHz sample frame and 16 bits of resolution.  
 
