@@ -1,8 +1,8 @@
-﻿#My-Voice Analysis
+﻿# My-Voice Analysis
 
-##Example usage
+## Example usage
 
-###Gender recognition and mood of speech: Function *myspgend(p)*
+### Gender recognition and mood of speech: Function *myspgend(p)*
 
 Code:
 
@@ -15,7 +15,7 @@ Code:
 Output:
 > a female, mood of speech: Reading, p-value/sample size= :0.00 5
 
-###Pronunciation posteriori probability score percentage: Function *mysppron(p)*
+### Pronunciation posteriori probability score percentage: Function *mysppron(p)*
 
 Code:
 
@@ -29,7 +29,7 @@ Output:
 
 >Pronunciation_posteriori_probability_score_percentage= :85.00
 
-###Detect and count number of syllables: Function *myspsyl(p)*
+### Detect and count number of syllables: Function *myspsyl(p)*
 
 Code:
 
@@ -43,7 +43,7 @@ Output:
 
 >number_of_syllables= 154
 
-###Detect and count number of fillers and pauses: Function *mysppaus(p)*
+### Detect and count number of fillers and pauses: Function *mysppaus(p)*
 
 Code:
 
@@ -58,7 +58,7 @@ Output:
 >number_of_pauses= 22
 
 
-###Measure the rate of speech (speed): Function *myspsr(p)*
+### Measure the rate of speech (speed): Function *myspsr(p)*
 
 Code:
 
@@ -72,7 +72,7 @@ Output:
 
 >rate_of_speech= 3 # syllables/sec original duration
 
-###Measure the articulation (speed): Function *myspatc(p)*
+### Measure the articulation (speed): Function *myspatc(p)*
 
 Code:
 
@@ -86,7 +86,7 @@ Output:
 
 >articulation_rate= 5 # syllables/sec speaking duration
 
-###Measure speaking time (excl. fillers and pause): Function *myspst(p)*
+### Measure speaking time (excl. fillers and pause): Function *myspst(p)*
 
 Code:
 
@@ -100,7 +100,7 @@ Output:
 
 >speaking_duration= 31.6 # sec only speaking duration without pauses
 
-###Measure total speaking duration (inc. fillers and pauses): Function *myspod(p)*
+### Measure total speaking duration (inc. fillers and pauses): Function *myspod(p)*
 
 Code:
 
@@ -114,7 +114,7 @@ Output:
 
 >original_duration= 49.2 # sec total speaking duration with pauses
 
-###Measure ratio between speaking duration and total speaking duration: Function *myspbala(p)*
+### Measure ratio between speaking duration and total speaking duration: Function *myspbala(p)*
 
 Code:
 
@@ -128,7 +128,7 @@ Output:
 
 >balance= 0.6 # ratio (speaking duration)/(original duration)
 
-###Measure fundamental frequency distribution mean: Function *myspf0mean(p)*
+### Measure fundamental frequency distribution mean: Function *myspf0mean(p)*
 
 Code:
 
@@ -142,7 +142,7 @@ Output:
 
 >f0_mean= 212.45 # Hz global mean of fundamental frequency distribution
 
-###Measure fundamental frequency distribution SD: Function *myspf0sd(p)*
+### Measure fundamental frequency distribution SD: Function *myspf0sd(p)*
 
 Code:
 
@@ -156,7 +156,7 @@ Output:
 
 >f0_SD= 57.85 # Hz global standard deviation of fundamental frequency distribution
 
-###Measure fundamental frequency distribution median: Function *myspf0med(p)*
+### Measure fundamental frequency distribution median: Function *myspf0med(p)*
 
 Code:
 
@@ -173,7 +173,7 @@ Output:
 
 
 
-###Measure fundamental frequency distribution minimum: Function *myspf0min(p)*
+### Measure fundamental frequency distribution minimum: Function *myspf0min(p)*
 
 Code:
 
@@ -187,7 +187,7 @@ Output:
 
 >f0_min= 77 # Hz global minimum of fundamental frequency distribution
 
-###Measure fundamental frequency distribution maximum: Function *myspf0max(p)*
+### Measure fundamental frequency distribution maximum: Function *myspf0max(p)*
 
 Code:
 
@@ -201,7 +201,7 @@ Output:
 
 >f0_max= 414 # Hz global maximum of fundamental frequency distribution
 
-###Measure 25th quantile fundamental frequency distribution: Function *myspf0q25(p)*
+### Measure 25th quantile fundamental frequency distribution: Function *myspf0q25(p)*
 
 Code:
 
@@ -215,7 +215,7 @@ Output:
 
 >f0_quan25= 171 # Hz global 25th quantile of fundamental frequency distribution
 
-###Measure 75th quantile fundamental frequency distribution: Function *myspf0q75(p)*
+### Measure 75th quantile fundamental frequency distribution: Function *myspf0q75(p)*
 
 Code:
 
@@ -232,7 +232,7 @@ Output:
 
 
 
-###Overview: Function *mysptotal(p)*
+### Overview: Function *mysptotal(p)*
 
 Code:
 
