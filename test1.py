@@ -1,23 +1,23 @@
-import myspsolution as mysp
+mysp = __import__("my-voice-analysis")
 
-p="Walkers"
-c=r"C:\Users\Shahab\Desktop\Mysp"
+path = r"./test_data/MLK_Something_happening_poop.wav"
 
+df = mysp.get_df(path)
 
-mysp.mysptotal(p,c)
-mysp.myspgend(p,c)
-mysp.myspsyl(p,c)
-mysp.mysppaus(p,c)
-mysp.myspsr(p,c)
-mysp.myspatc(p,c)
-mysp.myspst(p,c)
-mysp.myspod(p,c)
-mysp.myspbala(p,c)
-mysp.myspf0mean(p,c)
-mysp.myspf0sd(p,c)
-mysp.myspf0med(p,c)
-mysp.myspf0min(p,c)
-mysp.myspf0max(p,c)
-mysp.myspf0q25(p,c)
-mysp.myspf0q75(p,c)
-mysp.mysppron(p,c)
+mysp.mysptotal(path, df=df)
+mysp.myspgend(path, df=df)
+mysp.myspsyl(path, df=df)
+mysp.mysppaus(path, df=df)
+mysp.myspsr(path, df=df)
+mysp.myspatc(path, df=df)
+mysp.myspst(path, df=df)
+mysp.myspod(path, df=df)
+mysp.myspbala(path, df=df)
+mysp.myspf0mean(path, df=df)
+mysp.myspf0sd(path, df=df)
+mysp.myspf0med(path, df=df)
+mysp.myspf0min(path, df=df)
+mysp.myspf0max(path, df=df)
+mysp.myspf0q25(path, df=df)
+mysp.myspf0q75(path, df=df)
+mysp.mysppron(path, df=df)
