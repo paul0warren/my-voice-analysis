@@ -62,7 +62,7 @@ Output:
 
 Code:
 
-    mysp=\_\_import\_\_("my-voice-analysis")
+    mysp=__import__("my-voice-analysis")
     
     p="./test_data/MLK_Something_happening.wav" # Audio File
     
