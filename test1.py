@@ -1,6 +1,6 @@
 mysp = __import__("my-voice-analysis")
 
-path = r"./test_data/MLK_Something_happening_poop.wav"
+path = r"./test_data/MLK_Something_happening.wav"
 
 df = mysp.get_df(path)
 
