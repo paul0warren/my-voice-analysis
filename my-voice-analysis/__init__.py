@@ -145,7 +145,7 @@ def myspsyl(p, df=None):
         df = get_df(p)
     value = get_value_for_metric(df, "number_of_syllables")
     print("number_ of_syllables=", value)
-    return
+    return value
 
 
 def mysppaus(p, df=None):
@@ -153,7 +153,7 @@ def mysppaus(p, df=None):
         df = get_df(p)
     value = get_value_for_metric(df, "number_of_pauses")
     print("number_of_pauses=", value)
-    return
+    return value
 
 
 def myspsr(p, df=None):
@@ -161,7 +161,7 @@ def myspsr(p, df=None):
         df = get_df(p)
     value = get_value_for_metric(df, "rate_of_speech")
     print("rate_of_speech=", value, "# syllables/sec original duration")
-    return
+    return value
 
 
 def myspatc(p, df=None):
@@ -169,7 +169,7 @@ def myspatc(p, df=None):
         df = get_df(p)
     value = get_value_for_metric(df, "articulation_rate")
     print("articulation_rate=", value, "# syllables/sec speaking duration")
-    return
+    return value
 
 
 def myspst(p, df=None):
